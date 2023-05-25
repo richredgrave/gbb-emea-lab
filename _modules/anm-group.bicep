@@ -3,7 +3,7 @@ param anmName string
 param description string
 param membershipCondition string
 
-resource anmGroup 'Microsoft.Network/networkManagers/networkGroups@2021-02-01-preview' = {
+resource anmGroup 'Microsoft.Network/networkManagers/networkGroups@2022-11-01' = {
   name: '${anmName}/${name}'
   properties: {
     description: description

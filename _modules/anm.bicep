@@ -1,7 +1,7 @@
 param location string
 param name string
 
-resource anm 'Microsoft.Network/networkManagers@2021-02-01-preview' = {
+resource anm 'Microsoft.Network/networkManagers@2022-11-01' = {
   name: name
   location: location
   properties: {

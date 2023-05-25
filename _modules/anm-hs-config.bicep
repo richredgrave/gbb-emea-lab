@@ -9,7 +9,7 @@ param hubId string
 ])
 param topology string = 'HubAndSpoke'
 
-resource config 'Microsoft.Network/networkManagers/connectivityConfigurations@2021-02-01-preview' = {
+resource config 'Microsoft.Network/networkManagers/connectivityConfigurations@2022-11-01' = {
   name: '${anmName}/${configName}'
   properties: {
     connectivityTopology: topology
